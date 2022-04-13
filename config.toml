@@ -62,3 +62,9 @@ url = "/index.xml"
 
 [taxonomies]
    tag = "tags"
+
+[deployment]
+[[deployment.targets]]
+name = "prod"
+url = "s3://ferries.agh1973.com?region=us-east-1"
+cloudFrontDistributionID = "E15HIVMALNO15"
