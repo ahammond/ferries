@@ -1,3 +1,64 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "http://ferries.agh1973.com/"
+languageCode = "en-us"
+title = "Salty Ferries"
+theme = "ink"
+paginate = 5
+
+copyright = "© Andrew Hammond"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# googleAnalytics = "UA-123-45"
+# disqusShortname = "ink-demo"
+
+[params]
+	subtitle = "Readable ferry info for Salt Spring Island."
+
+	# Optional 64x64 avatar image.
+	avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
+
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+
+	featherIconsCDN = true
+
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Fulford"
+url = "/fulford"
+weight = 2
+
+[[menu.main]]
+name = "Long Harbour"
+url = "/long-harbour"
+weight = 3
+
+[[menu.main]]
+name = "Vesuvius"
+url = "/vesuvius"
+weight = 4
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/ahammond/ferries"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"
