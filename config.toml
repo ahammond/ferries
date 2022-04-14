@@ -1,7 +1,7 @@
 baseURL = "http://ferries.agh1973.com/"
 languageCode = "en-us"
 title = "Salty Ferries"
-theme = "ink"
+theme = "hugo-ink"
 paginate = 5
 
 copyright = "© Andrew Hammond"
